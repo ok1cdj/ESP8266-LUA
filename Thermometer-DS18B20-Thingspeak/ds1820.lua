@@ -67,7 +67,7 @@ t1 = lasttemp / 10000
 t2 = (lasttemp >= 0 and lasttemp % 10000) or (10000 - lasttemp % 10000)
 print("Temp:"..t1 .. "."..t2.." C\n")
 -- conection to thingspeak.com
-ptint("Sending data to thingspeak.com")
+print("Sending data to thingspeak.com")
 conn=net.createConnection(net.TCP, 0) 
 conn:on("receive", function(conn, payload) print(payload) end)
 -- api.thingspeak.com 184.106.153.149
