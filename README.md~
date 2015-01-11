@@ -11,7 +11,7 @@ LUA scripts for ESP8266 with NodeMCU firmware
 
 **Eagle-CAD** - Eagle library, currently only ESP-01, ESP-03
 
-**ESP-01-board** - Universal board for ESP-01 (contains EAGLE files)
+**ESP-01-board** - Universal board for ESP-01
 
 ![ESP-01-board](https://raw.githubusercontent.com/ok1cdj/ESP8266-LUA/master/ESP-01-board/esp01-test.jpg)
 
