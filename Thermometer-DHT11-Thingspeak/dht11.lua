@@ -3,6 +3,7 @@
 -- DHT11 code is from esp8266.com
 ---Sensor DHT11 is conntected to GPIO0
 pin = 3
+-- GPIO0 = 3 GPIO2 = 4
 
 Humidity = 0
 HumidityDec=0
